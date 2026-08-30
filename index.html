@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Run Python in HTML</title>
+    <!-- 1. Load the correct PyScript assets from the CDN -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+</head>
+<body>
+    <h1>Electronic Greeter</h1>
+    <input type="text" id="user-input" py-keydown="greetkey" placeholder="Enter name">
+    <button py-click="my_button_function">Greet</button>
+    <h1 id="output-target"></h1>
+    <script type="py" src="test.py"></script>
+    <br><br><br>
+    <input type="number" id="first-num" placeholder="Enter first number here">
+    <input type="number" id="second-num" placeholder="Enter second number here">
+    <br>
+    <button py-click="sum">Add together</button>
+    <button py-click="difference">Subtract eachother</button>
+    <button py-click="product">Multiply together</button>
+    <button py-click="quotient">Divide eachother</button>
+    <h1 id="equals">It equals...</h1>
+</body>
+</html>
