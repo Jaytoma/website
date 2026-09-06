@@ -50,3 +50,7 @@ def checkdigit(event):
     sum %= 10
     sum = (10 - sum) % 10
     display(sum, target="checkout", append=False)
+
+def barcodekey(event):
+    if event.key == "Enter":
+        checkdigit(event)
