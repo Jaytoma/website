@@ -3,11 +3,12 @@ input {
 }
 
 button {
-    background-color: #9D96B8;
+    background-color: #283c6b;
+    color: #cbcbcb;
 }
 
 .hero {
-    background-color: #284B63;
+    background-color: #283c6b;
     height: 25vh;
     width: 100%;
     background-size: cover;
@@ -16,10 +17,19 @@ button {
     justify-content: center;
     position: relative;
     padding: 0;
+    h1 {
+        color: #ab9ff6;
+    }
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #05B2DC;
+    background-color: #8f9cb7;
+}
+
+footer {
+    background-color: #4262ad;
+    display: flex;
+    justify-content: right;
 }
