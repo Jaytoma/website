@@ -8,29 +8,37 @@
     <link rel="stylesheet" href="style.css">
     <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
 </head>
+
 <body>
     <section class="hero">
         <h1 class="hero-title">This is a test</h1>
     </section>
-    <h1>Electronic Greeter</h1>
-    <input type="text" id="user-input" py-keydown="greetkey" placeholder="Enter name">
-    <button py-click="my_button_function">Greet</button>
-    <h1 class="outputs" id="output-target"></h1>
-    <script type="py" src="test.py"></script>
-    <br><br><br>
-    <input type="number" id="first-num" placeholder="Enter first number here">
-    <input type="number" id="second-num" placeholder="Enter second number here">
-    <br>
-    <br>
-    <button py-click="sum">Add together</button>
-    <button py-click="difference">Subtract eachother</button>
-    <button py-click="product">Multiply together</button>
-    <button py-click="quotient">Divide eachother</button>
-    <h1 class="outputs" id="equals">It equals...</h1>
-    <br><br><br>
-    <input type="number" id="barcode" py-keydown="barcodekey" placeholder="Enter 12 digits of barcode here">
-    <button py-click="checkdigit">Check Digit Solve</button>
-    <h1 class="outputs" id="checkout">Check Digit Here</h1>
+    <div class="content">
+        <div>
+            <h1>Electronic Greeter</h1>
+            <input type="text" id="user-input" py-keydown="greetkey" placeholder="Enter name">
+            <button py-click="my_button_function">Greet</button>
+            <h1 class="outputs" id="output-target">Hello there ____!</h1>
+            <script type="py" src="test.py"></script>
+        </div>
+        <div>
+            <h1>Basic Calculator</h1>
+            <input type="number" id="first-num" placeholder="Enter first number here">
+            <input type="number" id="second-num" placeholder="Enter second number here">
+            <br><br>
+            <button py-click="sum">Add together</button>
+            <button py-click="difference">Subtract eachother</button>
+            <button py-click="product">Multiply together</button>
+            <button py-click="quotient">Divide eachother</button>
+            <h1 class="outputs" id="equals">It equals...</h1>
+        </div>
+        <div>
+            <h1>Barcode Check Digit Thingy</h1>
+            <input type="number" id="barcode" py-keydown="barcodekey" placeholder="Enter 12 digits of barcode here">
+            <button py-click="checkdigit">Check Digit Solve</button>
+            <h1 class="outputs" id="checkout">Check Digit Here</h1>
+        </div>
+    </div>        
 </body>
 <footer>
     <h1>This is a footer...</h1>

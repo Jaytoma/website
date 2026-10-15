@@ -28,6 +28,20 @@ body {
     background-color: #8f9cb7;
 }
 
+.content {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 6em;
+  width: 70%;
+  margin: 3em auto;
+  div {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+  }
+}
+
 footer {
     background-color: #4262ad;
     display: flex;
