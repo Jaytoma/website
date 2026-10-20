@@ -5,27 +5,90 @@ input {
 button {
     background-color: #283c6b;
     color: #cbcbcb;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: #f1f1f1;
 }
 
 .hero {
     background-color: #283c6b;
-    height: 25vh;
+    height: 20vh;
     width: 100%;
     background-size: cover;
     background-position: center;
-    display: flex;
     justify-content: center;
+    display: flex;
     position: relative;
     padding: 0;
-    h1 {
-        color: #ab9ff6;
-    }
+}
+
+.hamburger-background {
+    background-color: #283c6b;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    padding: 1vh;
+}
+
+.hamburger {
+    color: #ab9ff6;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+.hamburger:hover {
+    color: #f1f1f1;
+}
+
+.hero-title {
+    color: #ab9ff6;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: #8f9cb7;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #283c6b;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ab9ff6;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 .content {
@@ -43,7 +106,10 @@ body {
 }
 
 footer {
-    background-color: #4262ad;
+    background-color: #283c6b;
     display: flex;
     justify-content: right;
+    h1 {
+      color: #ab9ff6;
+    }
 }

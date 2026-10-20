@@ -2,15 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Run Python in HTML</title>
+    <title>PROJECT WIP</title>
     <!-- 1. Load the correct PyScript assets from the CDN -->
     <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css">
     <link rel="stylesheet" href="style.css">
     <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <script src="nav.js" defer></script>
 </head>
 
 <body>
+    <div class="hamburger-background">
+        <span onclick="openNav()" class="hamburger">☰</span>
+    </div>
     <section class="hero">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
         <h1 class="hero-title">This is a test</h1>
     </section>
     <div class="content">
