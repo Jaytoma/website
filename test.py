@@ -12,30 +12,6 @@ def greetkey(event):
     if event.key == "Enter":
         my_button_function(event)
 
-def sum(event):
-    num1 = int(document.getElementById('first-num').value)
-    num2 = int(document.getElementById('second-num').value)
-    output = num1 + num2
-    display(output, target="equals", append=False)
-
-def difference(event):
-    num1 = int(document.getElementById('first-num').value)
-    num2 = int(document.getElementById('second-num').value)
-    output = num1 - num2
-    display(output, target="equals", append=False)
-
-def product(event):
-    num1 = int(document.getElementById('first-num').value)
-    num2 = int(document.getElementById('second-num').value)
-    output = num1 * num2
-    display(output, target="equals", append=False)
-
-def quotient(event):
-    num1 = int(document.getElementById('first-num').value)
-    num2 = int(document.getElementById('second-num').value)
-    output = num1 / num2
-    display(output, target="equals", append=False)
-
 def checkdigit(event):
     code = document.getElementById('barcode').value
     sum1 = 0
