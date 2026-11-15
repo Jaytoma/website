@@ -8,12 +8,6 @@ button {
     transition: 0.3s;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 .tic {
   background-color: #FFFFFF;
   color: #000000;
