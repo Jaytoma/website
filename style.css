@@ -134,6 +134,7 @@ footer {
     background-color: #283c6b;
     display: flex;
     justify-content: right;
+    position: absolute bottom;
     h1 {
       color: #ab9ff6;
     }
