@@ -53,8 +53,10 @@ button:hover {
 }
 
 body {
+    min-height: 100dvh; /* Ensures the body fills at least the full screen height */
     margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
     background-color: #8f9cb7;
 }
 
@@ -134,7 +136,7 @@ footer {
     background-color: #283c6b;
     display: flex;
     justify-content: right;
-    position: absolute bottom;
+    margin-top: auto;
     h1 {
       color: #ab9ff6;
     }
