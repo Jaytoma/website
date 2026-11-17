@@ -1,5 +1,5 @@
 # main.py
-from pyscript import *
+from pyscript import display, document
 x_turn = True
 
 def my_button_function(event):
@@ -34,12 +34,6 @@ def barcodekey(event):
 
 def one(event):
     global x_turn
-    if x_turn == True:
-        display('x', target='one', append=False)
-        x_turn = False
-    else:
-        display('o', target='one', append=False)
-        x_turn = True
     one = document.getElementById('one').innerText
     two = document.getElementById('two').innerText
     three = document.getElementById('three').innerText
@@ -49,6 +43,16 @@ def one(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
+    if one != '1':
+        pass
+    else:
+        if x_turn == True:
+            display('x', target='one', append=False)
+            x_turn = False
+        else:
+            display('o', target='one', append=False)
+            x_turn = True
+    one = document.getElementById('one').innerText
     if one == two == three or four == five == six or seven == eight == nine or one == four == seven or two == five == eight or three == six == nine or one == five == nine or three == five == seven:
         if x_turn == False:
             display('Player X has won!', target='result', append=False)
@@ -57,12 +61,6 @@ def one(event):
 
 def two(event):
     global x_turn
-    if x_turn == True:
-        display('x', target='two', append=False)
-        x_turn = False
-    else:
-        display('o', target='two', append=False)
-        x_turn = True
     one = document.getElementById('one').innerText
     two = document.getElementById('two').innerText
     three = document.getElementById('three').innerText
@@ -72,6 +70,16 @@ def two(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
+    if two != '2':
+        pass
+    else:
+        if x_turn == True:
+            display('x', target='two', append=False)
+            x_turn = False
+        else:
+            display('o', target='two', append=False)
+            x_turn = True
+    two = document.getElementById('two').innerText
     if one == two == three or four == five == six or seven == eight == nine or one == four == seven or two == five == eight or three == six == nine or one == five == nine or three == five == seven:
         if x_turn == False:
             display('Player X has won!', target='result', append=False)
@@ -80,12 +88,6 @@ def two(event):
 
 def three(event):
     global x_turn
-    if x_turn == True:
-        display('x', target='three', append=False)
-        x_turn = False
-    else:
-        display('o', target='three', append=False)
-        x_turn = True
     one = document.getElementById('one').innerText
     two = document.getElementById('two').innerText
     three = document.getElementById('three').innerText
@@ -95,6 +97,16 @@ def three(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
+    if three != '3':
+        pass
+    else:
+        if x_turn == True:
+            display('x', target='three', append=False)
+            x_turn = False
+        else:
+            display('o', target='three', append=False)
+            x_turn = True
+    three = document.getElementById('three').innerText
     if one == two == three or four == five == six or seven == eight == nine or one == four == seven or two == five == eight or three == six == nine or one == five == nine or three == five == seven:
         if x_turn == False:
             display('Player X has won!', target='result', append=False)
@@ -103,12 +115,6 @@ def three(event):
 
 def four(event):
     global x_turn
-    if x_turn == True:
-        display('x', target='four', append=False)
-        x_turn = False
-    else:
-        display('o', target='four', append=False)
-        x_turn = True
     one = document.getElementById('one').innerText
     two = document.getElementById('two').innerText
     three = document.getElementById('three').innerText
@@ -118,6 +124,16 @@ def four(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
+    if four != '4':
+        pass
+    else:
+        if x_turn == True:
+            display('x', target='four', append=False)
+            x_turn = False
+        else:
+            display('o', target='four', append=False)
+            x_turn = True
+    four = document.getElementById('four').innerText
     if one == two == three or four == five == six or seven == eight == nine or one == four == seven or two == five == eight or three == six == nine or one == five == nine or three == five == seven:
         if x_turn == False:
             display('Player X has won!', target='result', append=False)
@@ -126,12 +142,6 @@ def four(event):
 
 def five(event):
     global x_turn
-    if x_turn == True:
-        display('x', target='five', append=False)
-        x_turn = False
-    else:
-        display('o', target='five', append=False)
-        x_turn = True
     one = document.getElementById('one').innerText
     two = document.getElementById('two').innerText
     three = document.getElementById('three').innerText
@@ -141,6 +151,16 @@ def five(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
+    if five != '5':
+        pass
+    else:
+        if x_turn == True:
+            display('x', target='five', append=False)
+            x_turn = False
+        else:
+            display('o', target='five', append=False)
+            x_turn = True
+    five = document.getElementById('five').innerText
     if one == two == three or four == five == six or seven == eight == nine or one == four == seven or two == five == eight or three == six == nine or one == five == nine or three == five == seven:
         if x_turn == False:
             display('Player X has won!', target='result', append=False)
@@ -149,12 +169,6 @@ def five(event):
 
 def six(event):
     global x_turn
-    if x_turn == True:
-        display('x', target='six', append=False)
-        x_turn = False
-    else:
-        display('o', target='six', append=False)
-        x_turn = True
     one = document.getElementById('one').innerText
     two = document.getElementById('two').innerText
     three = document.getElementById('three').innerText
@@ -164,6 +178,16 @@ def six(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
+    if six != '6':
+        pass
+    else:
+        if x_turn == True:
+            display('x', target='six', append=False)
+            x_turn = False
+        else:
+            display('o', target='six', append=False)
+            x_turn = True
+    six = document.getElementById('six').innerText
     if one == two == three or four == five == six or seven == eight == nine or one == four == seven or two == five == eight or three == six == nine or one == five == nine or three == five == seven:
         if x_turn == False:
             display('Player X has won!', target='result', append=False)
@@ -172,12 +196,6 @@ def six(event):
 
 def seven(event):
     global x_turn
-    if x_turn == True:
-        display('x', target='seven', append=False)
-        x_turn = False
-    else:
-        display('o', target='seven', append=False)
-        x_turn = True
     one = document.getElementById('one').innerText
     two = document.getElementById('two').innerText
     three = document.getElementById('three').innerText
@@ -187,6 +205,16 @@ def seven(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
+    if seven != '7':
+        pass
+    else:
+        if x_turn == True:
+            display('x', target='seven', append=False)
+            x_turn = False
+        else:
+            display('o', target='seven', append=False)
+            x_turn = True
+    seven = document.getElementById('seven').innerText
     if one == two == three or four == five == six or seven == eight == nine or one == four == seven or two == five == eight or three == six == nine or one == five == nine or three == five == seven:
         if x_turn == False:
             display('Player X has won!', target='result', append=False)
@@ -195,12 +223,6 @@ def seven(event):
 
 def eight(event):
     global x_turn
-    if x_turn == True:
-        display('x', target='eight', append=False)
-        x_turn = False
-    else:
-        display('o', target='eight', append=False)
-        x_turn = True
     one = document.getElementById('one').innerText
     two = document.getElementById('two').innerText
     three = document.getElementById('three').innerText
@@ -210,6 +232,16 @@ def eight(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
+    if eight != '8':
+        pass
+    else:
+        if x_turn == True:
+            display('x', target='eight', append=False)
+            x_turn = False
+        else:
+            display('o', target='eight', append=False)
+            x_turn = True
+    eight = document.getElementById('eight').innerText
     if one == two == three or four == five == six or seven == eight == nine or one == four == seven or two == five == eight or three == six == nine or one == five == nine or three == five == seven:
         if x_turn == False:
             display('Player X has won!', target='result', append=False)
@@ -218,12 +250,6 @@ def eight(event):
 
 def nine(event):
     global x_turn
-    if x_turn == True:
-        display('x', target='nine', append=False)
-        x_turn = False
-    else:
-        display('o', target='nine', append=False)
-        x_turn = True
     one = document.getElementById('one').innerText
     two = document.getElementById('two').innerText
     three = document.getElementById('three').innerText
@@ -232,6 +258,16 @@ def nine(event):
     six = document.getElementById('six').innerText
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
+    nine = document.getElementById('nine').innerText
+    if nine != '9':
+        pass
+    else:
+        if x_turn == True:
+            display('x', target='nine', append=False)
+            x_turn = False
+        else:
+            display('o', target='nine', append=False)
+            x_turn = True
     nine = document.getElementById('nine').innerText
     if one == two == three or four == five == six or seven == eight == nine or one == four == seven or two == five == eight or three == six == nine or one == five == nine or three == five == seven:
         if x_turn == False:
