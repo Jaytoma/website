@@ -43,7 +43,7 @@ def one(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
-    if one != '1':
+    if one != '1' or document.getElementById('result').innerText != 'Tic Tac Toe':
         pass
     else:
         if x_turn == True:
@@ -58,6 +58,8 @@ def one(event):
             display('Player X has won!', target='result', append=False)
         else:
             display('Player O has won!', target='result', append=False)
+    elif one != '1' and two != '2' and three != '3' and four != '4' and five != '5' and six != '6' and seven != '7' and eight != '8' and nine != '9':
+        display("It's a tie...", target='result', append=False)
 
 def two(event):
     global x_turn
@@ -70,7 +72,7 @@ def two(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
-    if two != '2':
+    if two != '2' or document.getElementById('result').innerText != 'Tic Tac Toe':
         pass
     else:
         if x_turn == True:
@@ -85,6 +87,8 @@ def two(event):
             display('Player X has won!', target='result', append=False)
         else:
             display('Player O has won!', target='result', append=False)
+    elif one != '1' and two != '2' and three != '3' and four != '4' and five != '5' and six != '6' and seven != '7' and eight != '8' and nine != '9':
+        display("It's a tie...", target='result', append=False)
 
 def three(event):
     global x_turn
@@ -97,7 +101,7 @@ def three(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
-    if three != '3':
+    if three != '3' or document.getElementById('result').innerText != 'Tic Tac Toe':
         pass
     else:
         if x_turn == True:
@@ -112,6 +116,8 @@ def three(event):
             display('Player X has won!', target='result', append=False)
         else:
             display('Player O has won!', target='result', append=False)
+    elif one != '1' and two != '2' and three != '3' and four != '4' and five != '5' and six != '6' and seven != '7' and eight != '8' and nine != '9':
+        display("It's a tie...", target='result', append=False)
 
 def four(event):
     global x_turn
@@ -124,7 +130,7 @@ def four(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
-    if four != '4':
+    if four != '4' or document.getElementById('result').innerText != 'Tic Tac Toe':
         pass
     else:
         if x_turn == True:
@@ -139,6 +145,8 @@ def four(event):
             display('Player X has won!', target='result', append=False)
         else:
             display('Player O has won!', target='result', append=False)
+    elif one != '1' and two != '2' and three != '3' and four != '4' and five != '5' and six != '6' and seven != '7' and eight != '8' and nine != '9':
+        display("It's a tie...", target='result', append=False)
 
 def five(event):
     global x_turn
@@ -151,7 +159,7 @@ def five(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
-    if five != '5':
+    if five != '5' or document.getElementById('result').innerText != 'Tic Tac Toe':
         pass
     else:
         if x_turn == True:
@@ -166,6 +174,8 @@ def five(event):
             display('Player X has won!', target='result', append=False)
         else:
             display('Player O has won!', target='result', append=False)
+    elif one != '1' and two != '2' and three != '3' and four != '4' and five != '5' and six != '6' and seven != '7' and eight != '8' and nine != '9':
+        display("It's a tie...", target='result', append=False)
 
 def six(event):
     global x_turn
@@ -178,7 +188,7 @@ def six(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
-    if six != '6':
+    if six != '6' or document.getElementById('result').innerText != 'Tic Tac Toe':
         pass
     else:
         if x_turn == True:
@@ -193,6 +203,8 @@ def six(event):
             display('Player X has won!', target='result', append=False)
         else:
             display('Player O has won!', target='result', append=False)
+    elif one != '1' and two != '2' and three != '3' and four != '4' and five != '5' and six != '6' and seven != '7' and eight != '8' and nine != '9':
+        display("It's a tie...", target='result', append=False)
 
 def seven(event):
     global x_turn
@@ -205,7 +217,7 @@ def seven(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
-    if seven != '7':
+    if seven != '7' or document.getElementById('result').innerText != 'Tic Tac Toe':
         pass
     else:
         if x_turn == True:
@@ -220,6 +232,8 @@ def seven(event):
             display('Player X has won!', target='result', append=False)
         else:
             display('Player O has won!', target='result', append=False)
+    elif one != '1' and two != '2' and three != '3' and four != '4' and five != '5' and six != '6' and seven != '7' and eight != '8' and nine != '9':
+        display("It's a tie...", target='result', append=False)
 
 def eight(event):
     global x_turn
@@ -232,7 +246,7 @@ def eight(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
-    if eight != '8':
+    if eight != '8' or document.getElementById('result').innerText != 'Tic Tac Toe':
         pass
     else:
         if x_turn == True:
@@ -247,6 +261,8 @@ def eight(event):
             display('Player X has won!', target='result', append=False)
         else:
             display('Player O has won!', target='result', append=False)
+    elif one != '1' and two != '2' and three != '3' and four != '4' and five != '5' and six != '6' and seven != '7' and eight != '8' and nine != '9':
+        display("It's a tie...", target='result', append=False)
 
 def nine(event):
     global x_turn
@@ -259,7 +275,7 @@ def nine(event):
     seven = document.getElementById('seven').innerText
     eight = document.getElementById('eight').innerText
     nine = document.getElementById('nine').innerText
-    if nine != '9':
+    if nine != '9' or document.getElementById('result').innerText != 'Tic Tac Toe':
         pass
     else:
         if x_turn == True:
@@ -274,6 +290,8 @@ def nine(event):
             display('Player X has won!', target='result', append=False)
         else:
             display('Player O has won!', target='result', append=False)
+    elif one != '1' and two != '2' and three != '3' and four != '4' and five != '5' and six != '6' and seven != '7' and eight != '8' and nine != '9':
+        display("It's a tie...", target='result', append=False)
 
 def reset_board(event):
     global x_turn
